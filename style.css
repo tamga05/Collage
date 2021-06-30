@@ -24,41 +24,106 @@
     transform: translate(300px, 50px);
 }
 
-.figure:hover {
-    
-}
-
 .collage__figure:nth-child(1n + 1) {
-    transform: translate calc(300px, 50px);
-}
-
-.collage__figure:nth-child(2) {
-    transform: translate calc(400px, 70px);
+    width: 180px;
+    height: 240px;
 }
 
 .collage__figure:nth-child(1n + 4) {
     width: 270px;
-    height: 330px;
-    transform: translate(1300px, 300px);
+    height: 330px; 
 }
 
 .collage__figure:nth-child(1n + 7) {
     width: 330px;
-    height: 390px;
-    transform: translate(550px, 250px);
+    height: 390px; 
 }
 
 .collage__figure:nth-child(1n + 10) {
     width: 230px;
-    height: 290px;
-    transform: translate(950px, 450px);
+    height: 290px; 
 }
 
 .collage__figure:nth-child(1n + 13) {
     width: 130px;
     height: 190px;
-    transform: translate(1050px, 30px);
 }
+
+
+
+
+.collage__figure1 {
+    transform: translate(50px, 70px) rotate(-70deg);
+}
+
+.collage__figure2 {
+    transform: translate(1600px, 30px) rotate(50deg);
+}
+
+.collage__figure3 {
+    transform: translate(600px, 550px) rotate(20deg);
+}
+
+.collage__figure4 {
+    transform: translate(300px, 300px) rotate(-30deg);
+}
+
+.collage__figure5 {
+    transform: translate(770px, 630px) rotate(20deg);
+}
+
+.collage__figure6 {
+    transform: translate(1050px, 550px) rotate(70deg);
+}
+
+.collage__figure7 {
+    transform: translate(870px, 4000px) rotate(10deg);
+}
+
+.collage__figure8 {
+    transform: translate(1300px, 250px) rotate(10deg);
+}
+
+.collage__figure9 {
+    transform: translate(1500px, 550px) rotate(-25deg);
+}
+
+.collage__figure10 {
+    transform: translate(100px, 550px) rotate(37deg);
+}
+
+.collage__figure11 {
+    transform: translate(600px, 50px) rotate(20deg);
+}
+
+.collage__figure12 {
+    transform: translate(1000px, 20px) rotate(-40deg);
+}
+
+.collage__figure13 {
+    transform: translate(600px, 550px) rotate(30deg);
+}
+
+.collage__figure14 {
+    transform: translate(600px, 550px) rotate(60deg);
+}
+
+.collage__figure15 {
+    transform: translate(1050px, 650px) rotate(40deg);
+}
+
+.collage__figure16 {
+    transform: translate(300px, 700px) rotate(-40deg);
+}
+
+
+
+.figure:hover {
+}
+
+
+
+
 
 .img {
     width: 90%;
@@ -96,19 +161,3 @@ collage__img {
 
 
 
-
-.collage__img2 {
-    width: 200px;
-    height: 150px;
-    padding: 5px;
-}
-
-.collage__img10 {
-    width: 200px;
-    height: 150px;
-    background-color: rgb(85, 169, 247);
-    padding: 5px;
-}
-
-.collage__figcaption {
-}
