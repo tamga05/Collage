@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.collage {
+    background-color: rgb(206, 206, 206);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    padding: 50px;
+    position: relative;
+}
+
+.figure {
+    width: 180px;
+    height: 240px;
+    background-color: white;
+    box-shadow: 0 0 8px rgb(75, 75, 75);
+    border: 1px solid gray;
+    display: inline-block;
+    position: absolute;
+    transform: translate(300px, 50px);
+}
+
+.figure:hover {
+    
+}
+
+.collage__figure:nth-child(1n + 1) {
+    transform: translate calc(300px, 50px);
+}
+
+.collage__figure:nth-child(2) {
+    transform: translate calc(400px, 70px);
+}
+
+.collage__figure:nth-child(1n + 4) {
+    width: 270px;
+    height: 330px;
+    transform: translate(1300px, 300px);
+}
+
+.collage__figure:nth-child(1n + 7) {
+    width: 330px;
+    height: 390px;
+    transform: translate(550px, 250px);
+}
+
+.collage__figure:nth-child(1n + 10) {
+    width: 230px;
+    height: 290px;
+    transform: translate(950px, 450px);
+}
+
+.collage__figure:nth-child(1n + 13) {
+    width: 130px;
+    height: 190px;
+    transform: translate(1050px, 30px);
+}
+
+.img {
+    width: 90%;
+    height: 60%;
+    margin: 5%;
+}
+
+collage__img {
+}
+
+.figcaption {
+    font-size: 18px;
+    text-align: left;
+    font-style: italic;
+    margin: 2% 5% 5% 5%;
+}
+
+.collage__figcaption:nth-child(1n + 4) {
+    font-size: 1.2rem;
+}
+
+.collage__figcaption:nth-child(1n + 7) {
+    font-size: 1.4rem;
+}
+
+.collage__figcaption:nth-child(1n + 10) {
+    font-size: 1rem;
+}
+
+.collage__figcaption:nth-child(1n + 13) {
+    font-size: 0.7rem;
+}
+
+
+
+
+
+
+.collage__img2 {
+    width: 200px;
+    height: 150px;
+    padding: 5px;
+}
+
+.collage__img10 {
+    width: 200px;
+    height: 150px;
+    background-color: rgb(85, 169, 247);
+    padding: 5px;
+}
+
+.collage__figcaption {
+}
