@@ -57,7 +57,7 @@
 }
 
 .collage__figure2 {
-    transform: translate(1600px, 30px) rotate(50deg);
+    transform: translate(850px, 30px) rotate(50deg);
 }
 
 .collage__figure3 {
@@ -69,23 +69,23 @@
 }
 
 .collage__figure5 {
-    transform: translate(770px, 630px) rotate(20deg);
+    transform: translate(770px, 330px) rotate(20deg);
 }
 
 .collage__figure6 {
-    transform: translate(1050px, 550px) rotate(70deg);
+    transform: translate(450px, 550px) rotate(70deg);
 }
 
 .collage__figure7 {
-    transform: translate(870px, 4000px) rotate(10deg);
+    transform: translate(1170px, 300px) rotate(10deg);
 }
 
 .collage__figure8 {
-    transform: translate(1300px, 250px) rotate(10deg);
+    transform: translate(800px, 50git0px) rotate(15deg);
 }
 
 .collage__figure9 {
-    transform: translate(1500px, 550px) rotate(-25deg);
+    transform: translate(1250px, 550px) rotate(-25deg);
 }
 
 .collage__figure10 {
@@ -101,19 +101,19 @@
 }
 
 .collage__figure13 {
-    transform: translate(600px, 550px) rotate(30deg);
+    transform: translate(200px, 150px) rotate(-70deg);
 }
 
 .collage__figure14 {
-    transform: translate(600px, 550px) rotate(60deg);
+    transform: translate(1550px, 350px) rotate(60deg);
 }
 
 .collage__figure15 {
-    transform: translate(1050px, 650px) rotate(40deg);
+    transform: translate(1500px, 50px) rotate(-40deg);
 }
 
 .collage__figure16 {
-    transform: translate(300px, 700px) rotate(-40deg);
+    transform: translate(300px, 500px) rotate(-40deg);
 }
 
 
